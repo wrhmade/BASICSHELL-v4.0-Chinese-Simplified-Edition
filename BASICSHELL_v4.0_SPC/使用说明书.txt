@@ -1,0 +1,41 @@
+BASICSHELL 说明书
+
+使用前提:
+电脑安装有Python 3.x解释器
+
+使用方法:
+使用Python解释器打开“BASICSHELL_v3.51_SPC.PY”,BASICSHELL就会启动
+
+在启动过程中,BASIESHELL就会提示如下文字：
+
+Welcome to BASICSHELL
+Version 3.51
+
+To specify advanced boot options, press Ctrl-C within three seconds
+
+这个时候你可以按下Ctrl-C,以进入高级选项
+高级选项有四个选项：
+
+[1] Normal(Enter) - 默认启动(按正常方式启动BASICSHELL)
+[2] Do not log in directly - 不直接登录(启动之后,如果只有一个,先进入登录界面,不直接进入程序)
+[3] No title is set - 不设置标题(这时标题名不是“BAISCSHELL”)
+[4] Multi-users are not allowed - 禁用多用户(只保留system用户,这将禁止使用用户管理器和用户信息)
+
+在使用BASICSHELL前,请先登录
+默认有system用户,不能删除,也不能撤销管理员,是系统最高级用户
+
+进入程序后,你就会看到这一段文字：
+[用户名]-BASICSHELL -$
+
+这就是BASICSHELL的提示符
+
+其实,BASICSHELL的提示符是可以修改的
+请输入settings命令,并选择个性化->提示符自定义,输入提示符的样式后,提示符就更改了
+
+如果你第一次使用BASICSHELL,建议你先输入help命令,查看BASICSHELL的帮助
+
+
+
+
+版权©归WRH所有
+未经允许,不得拷贝此软件

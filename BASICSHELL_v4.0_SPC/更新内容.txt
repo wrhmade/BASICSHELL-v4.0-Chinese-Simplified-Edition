@@ -1,0 +1,6 @@
+-BSUI
+ BSUI是BASICHSELL的一个小组件
+ 用户可以通过BSUI来与BASICSHELL进行交互，不需要在输入命令
+ 当然，如果用惯了命令行，你也可以退出BSUI，或者通过BSUI进入终端
+
+ BSUI可以自启动，在进入BASICSHELL的时候就会启动，如果想永久性地关闭BSUI，请修改代码中tobsui的值为False
